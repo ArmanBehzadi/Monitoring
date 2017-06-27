@@ -654,22 +654,13 @@ p a:hover {
 }
 
 </style>	
-	
-	
-	
+
 	<!-- Resources -->
 <script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
 <script src="https://www.amcharts.com/lib/3/radar.js"></script>
 <script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
 <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
 <script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
-	
-	
-	
-	
-	
-	
-	
 	
 </head>
 <body>
@@ -680,10 +671,8 @@ p a:hover {
 	<div id="contents">
 		<div class="clearfix">
 		
-			
-	
-	
-		<center><h1>Result</h1></center>
+		
+		<!--	<center><h1>Result</h1></center>
     <p th:text="'Value Delivery ' + ${survey.valueDelivery}" />
     <p th:text="'Strategic Alignment ' + ${survey.strategicAlignment}" />
     <p th:text="'Resource Management ' + ${survey.resourceManagement}" />
@@ -694,7 +683,7 @@ p a:hover {
     <p th:text="'Average Resource Management ' + ${survey.getAvgResourceManagement()}" />
     <p th:text="'Average Risk Managment ' + ${survey.getAvgRiskManagement()}" />
     <p th:text="'Average Performance ' + ${survey.getAvgPerformance()}" />
-    <center><a href="/survey">Submit another message</a></center>
+    <center><a href="/survey">Submit another message</a></center>  -->
 	
 <br></br>
     
@@ -825,7 +814,10 @@ var chart = AmCharts.makeChart( "VAMRP", {
 
 
 <!-- ++++++++++++++++++++++++ Value Delivery +++++++++++++++++++ -->
-<h1>Value Delivery</h1>  
+<br> </br>
+<br> </br>
+<center><h1>Value Delivery</h1></center>
+<!--	
     <p th:text="'id: ' + ${survey.id}" />
     <p th:text="'content: ' + ${survey.content}" />
     <p th:text="'Frage ' + ${survey.c}" />
@@ -836,7 +828,7 @@ var chart = AmCharts.makeChart( "VAMRP", {
     <p th:text="'Frage ' + ${survey.j}" />
     <p th:text="'Handlungsempehlung ' + ${survey.getEmpfValueDelivery()}" />
     <center><a href="/survey">Submit another message</a></center>
-    
+    -->
          <!-- Chart code -->
 
            
@@ -931,7 +923,10 @@ var chart = AmCharts.makeChart( "ValueDelivery", {
 	
 
 <!-- ++++++++++++++++++++++++ Strategic Alignment +++++++++++++++++++ -->
+<br> </br>
+<br> </br>
 <center><h1>Strategic Alignment</h1></center>
+<!--	
     <p th:text="'id: ' + ${survey.id}" />
     <p th:text="'content: ' + ${survey.content}" />
     <p th:text="'Frage ' + ${survey.c}" />
@@ -943,7 +938,7 @@ var chart = AmCharts.makeChart( "ValueDelivery", {
     <p th:text="'Frage ' + ${survey.getEmpfStrategicAlignment()}" />
    
     <center><a href="/survey">Submit another message</a></center>
-    
+    -->
          <!-- Chart code -->
 
            
@@ -1067,7 +1062,10 @@ var chart = AmCharts.makeChart( "StrategicAlignment", {
 
 
 <!-- ++++++++++++++++++++++++ ResourceManagement +++++++++++++++++++ -->
-<center><h1>ResourceManagement</h1></center>
+<br> </br>
+<br> </br>
+<center><h1>Resource Management</h1></center>
+<!--	
     <p th:text="'id: ' + ${survey.id}" />
     <p th:text="'content: ' + ${survey.content}" />
     <p th:text="'Frage ' + ${survey.c}" />
@@ -1078,7 +1076,7 @@ var chart = AmCharts.makeChart( "StrategicAlignment", {
     <p th:text="'Frage ' + ${survey.j}" />
     <p th:text="'Frage ' + ${survey.getEmpfResourceManagement()}" />
     <center><a href="/survey">Submit another message</a></center>
-    
+    -->
          <!-- Chart code -->
 
            
@@ -1148,7 +1146,8 @@ var chart = AmCharts.makeChart( "ResourceManagement", {
 
 
 <!-- ++++++++++++++++++++++++ RISK MANAGMENT +++++++++++++++++++ -->
-<h1>RiskManagement</h1>  
+<h1>Risk Management</h1>  
+<!--	
     <p th:text="'id: ' + ${survey.id}" />
     <p th:text="'content: ' + ${survey.content}" />
     <p th:text="'Frage ' + ${survey.c}" />
@@ -1159,7 +1158,7 @@ var chart = AmCharts.makeChart( "ResourceManagement", {
     <p th:text="'Frage ' + ${survey.j}" />
     <p th:text="'Frage ' + ${survey.getEmpfRiskManagement()}" />
     <center><a href="/survey">Submit another message</a></center>
-    
+    -->
          <!-- Chart code -->
 
            
@@ -1249,8 +1248,10 @@ var chart = AmCharts.makeChart( "RiskManagement", {
 
 
 <!-- ++++++++++++++++++++ Performance +++++++++++++++++++++++ -->
-
+<br> </br>
+<br> </br>
 <center><h1>Performance</h1></center>
+<!--	
     <p th:text="'id: ' + ${survey.id}" />
     <p th:text="'content: ' + ${survey.content}" />
     <p th:text="'Frage ' + ${survey.c}" />
@@ -1261,6 +1262,7 @@ var chart = AmCharts.makeChart( "RiskManagement", {
     <p th:text="'Frage ' + ${survey.j}" />
     <p th:text="'Frage ' + ${survey.getEmpfPerformance()}" />
     <center><a href="/survey">Submit another message</a></center>
+    -->
     
          <!-- Chart code -->
 

@@ -33,16 +33,16 @@ public class SurveyController {
     	
     	List<Survey> surveies = rp.findAll();
     	double avgValueDelivery = 0;
-    	int avgStrategicAlignment = 0;
-    	int avgResourceManagement = 0;
-    	int avgRiskManagement = 0;
-    	int avgPerformance = 0;
+    	double avgStrategicAlignment = 0;
+    	double avgResourceManagement = 0;
+    	double avgRiskManagement = 0;
+    	double avgPerformance = 0;
     	
     	double valueDelivery = survey.getValueDelivery();
-    	int strategicAlignment = survey.getStrategicAlignment();
-    	int resourceManagement = survey.getResourceManagement();
-    	int riskManagement = survey.getRiskManagement();
-    	int performance = survey.getPerformance();
+    	double strategicAlignment = survey.getStrategicAlignment();
+    	double resourceManagement = survey.getResourceManagement();
+    	double riskManagement = survey.getRiskManagement();
+    	double performance = survey.getPerformance();
     	
     	for(Survey gre : surveies){
     		avgValueDelivery += gre.getValueDelivery();

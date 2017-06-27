@@ -29,48 +29,48 @@ public class Survey {
 		super();
 	}
 
-	private String content;
+
 
 	private double valueDelivery;
-	private int strategicAlignment;
-	private int resourceManagement;
-	private int riskManagement;
-	private int performance;
+	private double strategicAlignment;
+	private double resourceManagement;
+	private double riskManagement;
+	private double performance;
 	
 	private double avgDelvieryValue;
-	private int avgStrategicAlignment;
-	private int avgResourceManagement;
-	private int avgRiskManagement;
-	private int avgPerformance;
+	private double avgStrategicAlignment;
+	private double avgResourceManagement;
+	private double avgRiskManagement;
+	private double avgPerformance;
 	
-	public int getAvgStrategicAlignment() {
+	public double getAvgStrategicAlignment() {
 		return avgStrategicAlignment;
 	}
 
-	public void setAvgStrategicAlignment(int avgStrategicAlignment) {
+	public void setAvgStrategicAlignment(double avgStrategicAlignment) {
 		this.avgStrategicAlignment = avgStrategicAlignment;
 	}
 
-	public int getAvgRiskManagement() {
+	public double getAvgRiskManagement() {
 		return avgRiskManagement;
 	}
 
-	public void setAvgRiskManagement(int avgRiskManagement) {
+	public void setAvgRiskManagement(double avgRiskManagement) {
 		this.avgRiskManagement = avgRiskManagement;
 	}
 
-	public int getAvgPerformance() {
+	public double getAvgPerformance() {
 		return avgPerformance;
 	}
 
-	public void setAvgPerformance(int avgPerformance) {
+	public void setAvgPerformance(double avgPerformance) {
 		this.avgPerformance = avgPerformance;
 	}
-	public int getAvgResourceManagement() {
+	public double getAvgResourceManagement() {
 		return avgResourceManagement;
 	}
 
-	public void setAvgResourceManagement(int avgResourceManagement) {
+	public void setAvgResourceManagement(double avgResourceManagement) {
 		this.avgResourceManagement = avgResourceManagement;
 	}
 
@@ -206,14 +206,6 @@ public class Survey {
 	}
 
 	// Alle setter und getter Methoden
-	public String getContent() {
-		return content;
-	}
-
-	public void setContent(String content) {
-		this.content = content;
-	}
-
 	public int getA() {
 		return a;
 	}
@@ -565,35 +557,35 @@ public class Survey {
 		this.valueDelivery = valueDelivery;
 	}
 
-	public int getStrategicAlignment() {
+	public double getStrategicAlignment() {
 		return strategicAlignment;
 	}
 
-	public void setStrategicAlignment(int strategicAlignment) {
+	public void setStrategicAlignment(double strategicAlignment) {
 		this.strategicAlignment = strategicAlignment;
 	}
 
-	public int getResourceManagement() {
+	public double getResourceManagement() {
 		return resourceManagement;
 	}
 
-	public void setResourceManagement(int resourceManagement) {
+	public void setResourceManagement(double resourceManagement) {
 		this.resourceManagement = resourceManagement;
 	}
 
-	public int getRiskManagement() {
+	public double getRiskManagement() {
 		return riskManagement;
 	}
 
-	public void setRiskManagement(int riskManagement) {
+	public void setRiskManagement(double riskManagement) {
 		this.riskManagement = riskManagement;
 	}
 
-	public int getPerformance() {
+	public double getPerformance() {
 		return performance;
 	}
 
-	public void setPerformance(int performance) {
+	public void setPerformance(double performance) {
 		this.performance = performance;
 	}
 
